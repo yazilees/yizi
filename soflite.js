@@ -814,7 +814,7 @@ window.addEventListener('DOMContentLoaded', async () => {
         } else {
             console.warn(`No event found for ID: ${eventIdFromUrl}`);
             // Optional: Redirect to home or show error
-            // window.location.href = 'https://govoet.pages.dev/';
+            // window.location.href = 'https://liskatv.blogspot.com';
         }
     } else {
         const activeEventId = sessionStorage.getItem('activeEventId');
