@@ -6,7 +6,7 @@ let activeEventId = null;
 // Loads channel data from channels.json
 async function loadChannels() {
     try {
-        const response = await fetch('https://govoet.pages.dev/channels.json');
+        const response = await fetch('https://govoet.pages.dev/event.json');
         const channels = await response.json();
         const liveTvContent = document.querySelector("#live-tv #content");
         console.log("Live TV Content Element:", liveTvContent);
